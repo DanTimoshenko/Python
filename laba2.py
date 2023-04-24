@@ -1,2 +1,2 @@
 print('laba2')
-a
+print('yes')
