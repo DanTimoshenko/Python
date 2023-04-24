@@ -1,0 +1,1 @@
+print('laba2')
