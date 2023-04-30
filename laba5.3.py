@@ -9,11 +9,10 @@ def sqrt(x):
         diff = xn ** 2 - x
         count += 1
 
-    print(f"Вычисление квадратного корня {x} методом Герона заняло {count} итераций.")
     return xn
 
 
-# Пример использования функции sqrt
+
 print(sqrt(5))
 print(sqrt(20))
 print(sqrt(36))
