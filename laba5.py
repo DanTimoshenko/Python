@@ -1,9 +1,11 @@
 import math
 i = 2
-sum = 0
-while i < 16:
-    an = (i ** math.log(i)) / (math.log(i)* * i)
-    sum += an
-    i = i+1
+summa = 0
+NUMBER_OF_ELEMENTS = 16
 
-print(sum)
+while i < NUMBER_OF_ELEMENTS:
+    an = (i ** math.log(i)) / (math.log(i) ** i)
+    summa += an
+    i = i + 1
+
+print(summa)
