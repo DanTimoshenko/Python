@@ -1,12 +1,12 @@
-# Парадигмальні мови програмування лабораторна работа номер 2
-# Тимошенко Даніїл романович 18
-print('Парадигмальні мови програмувння лабораторна номер 2')
-print('Тимошенко Даніїл Романович номер заліковки 18 ')
-x = input('input please x: ')
-x = int(x)
-y = input('input please y: ')
-y = int(y)
-z = input('input please z: ')
-z = int(z)
+# IKM221K lab number 22
+# Timoshenko Daniil 18
+print('''IKM221K lab number 2
+Timoshenko Daniil 18''')
+
+TEMPLATE = 'input please {}: '
+x = int(input(TEMPLATE.format('x')))
+y = int(input(TEMPLATE.format('y')))
+z = int(input(TEMPLATE.format('z')))
+
 a = x - (x + (y / z)) / (78 + y)
 print(a)
