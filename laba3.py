@@ -1,21 +1,15 @@
-# Парадигмальні мови програмування лабораторна работа номер 2
-# Тимошенко Даніїл романович 18
-print('Парадигмальні мови програмувння лабораторна номер 2')
-print('Тимошенко Даніїл Романович номер заліковки 18 ')
-x = input('input please x: ')
-x = int(x)
-z = input('input please z: ')
-z = int(z)
+# IKM221K lab number 1
+# Timoshenko Daniil 18
+print('''IKM221K lab number 1
+Timoshenko Daniil 18''')
+TEMPLATE = 'input please {}: '
+x = int(input(TEMPLATE.format('x')))
+z = int(input(TEMPLATE.format('z')))
 
-if x > 3:
+if x < -3 or x > 3:
     a = (abs((x**3) - (z**3))/(((x**2)-9)**1/2))
     print(a)
-if x == 3:
-    print('неможливо, бо ділимо на 0')
-if -3 < x < 3:
-    print('неможливо бо мінусовий корінь')
-if x == -3:
-    print('неможливо, бо ділимо на 0')
-if x < -3:
-    a = (abs((x ** 3) - (z ** 3)) / (((x ** 2) - 9) ** 1 / 2))
-    print(a)
+elif x == 3 or x == -3:
+    print('impossible, because divide by zero')
+elif -3 < x < 3:
+    print('impossible because the negative root')
