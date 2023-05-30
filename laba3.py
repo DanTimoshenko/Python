@@ -10,6 +10,6 @@ if x < -3 or x > 3:
     a = (abs((x**3) - (z**3))/(((x**2)-9)**1/2))
     print(a)
 elif x == 3 or x == -3:
-    print('impossible, because divide by zero')
+    print('impossible, because divide by zero ')
 elif -3 < x < 3:
     print('impossible because the negative root')
