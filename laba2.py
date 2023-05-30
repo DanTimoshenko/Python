@@ -1,4 +1,4 @@
-# IKM221K lab number 22
+﻿# IKM221K lab number 22
 # Timoshenko Daniil 18
 print('''IKM221K lab number 2
 Timoshenko Daniil 18''')
