@@ -10,4 +10,3 @@ z = int(input(TEMPLATE.format('z')))
 
 a = x - (x + (y / z)) / (78 + y)
 print(a)
-
