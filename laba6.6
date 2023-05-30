@@ -1,0 +1,16 @@
+def count_the_occurrences(filename):
+    try:
+        with open(filename, 'r') as file:
+            text = file.read()
+            text = text.lower()  # Перетворення тексту на нижній регістр для незалежності від регістру
+            sentences = text.split('.')  # Поділ тексту на окремі речення за допомогою крапок
+
+            for i, sentence in enumerate(sentences):
+                count = sentence.count('the')
+                print(f"Текст {i + 1}: Кількість входжень 'the': {count}")
+
+    except FileNotFoundError:
+        print("Файл не знайдено")
+
+# Приклад виклику функції зі зазначенням імені файлу
+count_the_occurrences('myfile.txt')
