@@ -11,3 +11,4 @@ with open(filename, "w") as file:
     file.write(f'Number {number} є {parity}.')
 
 print(f'The information is recorded in the file {filename}.')
+

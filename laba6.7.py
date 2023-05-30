@@ -14,3 +14,4 @@ def format_text(filename):
 
 
 format_text('laba6.7.txt')
+

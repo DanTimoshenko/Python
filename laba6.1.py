@@ -7,3 +7,4 @@ print(f'Sum of numbers: {total}')
 
 with open('numbers_sum.txt.txt', 'w') as f:
     f.write(str(total))
+

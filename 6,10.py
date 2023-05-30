@@ -54,3 +54,4 @@ if __name__ == '__main__':
     print('More than 8.7 :')
     for rating in ratings_more_than:
         print(rating)
+

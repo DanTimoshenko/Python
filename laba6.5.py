@@ -18,3 +18,4 @@ while True:
         file.write(greeting + '\n')
 
 print('The data is stored in a guest_book.txt file ')
+
