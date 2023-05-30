@@ -13,5 +13,4 @@ def format_text(filename):
         print('file not found')
 
 
-# Приклад виклику функції зі зазначенням імені файлу
 format_text('laba6.7.txt')

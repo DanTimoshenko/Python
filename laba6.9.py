@@ -24,5 +24,4 @@ def calculate_letter_percentage(filename):
     print('Percentage of lowercase letters:', lowercase_percentage)
 
 
-# Приклад виклику функції зі шляхом до файлу
 calculate_letter_percentage('6.9.txt')
