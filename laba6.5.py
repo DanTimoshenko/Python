@@ -17,4 +17,4 @@ while True:
     with open(filename, 'a') as file:
         file.write(greeting + '\n')
 
-print('The data is stored in a guest_book.txt file')
+print('The data is stored in a guest_book.txt file ')

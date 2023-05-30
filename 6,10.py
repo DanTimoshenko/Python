@@ -51,6 +51,6 @@ if __name__ == '__main__':
         print(rating)
 
     ratings_more_than = execute_sql('SELECT * FROM ratings WHERE rating > 8.70')
-    print('More than 8.7:')
+    print('More than 8.7 :')
     for rating in ratings_more_than:
         print(rating)

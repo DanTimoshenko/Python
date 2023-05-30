@@ -14,7 +14,7 @@ def calculate_letter_percentage(filename):
                         lowercase_letters += 1
 
     if total_letters == 0:
-        print('The file contains no letters.')
+        print('The file contains no letters. ')
         return
 
     uppercase_percentage = (uppercase_letters / total_letters) * 100

@@ -7,7 +7,7 @@ def count_the_occurrences(filename):
 
             for i, sentence in enumerate(sentences):
                 count = sentence.count('the')
-                print(f'text {i + 1}: Number of occurrences "the": {count}')
+                print(f'text {i + 1}: Number of occurrences "the ": {count}')
 
     except FileNotFoundError:
         print("File not found")

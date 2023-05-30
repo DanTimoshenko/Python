@@ -12,7 +12,7 @@ def extract_chapter_titles(filename):
             for chapter in chapters:
                 file.write(chapter + '\n')
 
-        print('Section headings have been successfully extracted and written to a file "chapter.txt".')
+        print('Section headings have been successfully extracted and written to a file "chapter.txt ".')
 
     except FileNotFoundError:
         print('File not found')
