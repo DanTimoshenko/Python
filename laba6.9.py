@@ -25,4 +25,3 @@ def calculate_letter_percentage(filename):
 
 
 calculate_letter_percentage('6.9.txt')
-
