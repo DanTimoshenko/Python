@@ -8,7 +8,7 @@ else:
 
 filename = "parity.txt"
 with open(filename, "w") as file:
-    file.write(f'Number {number} є {parity}.')
+    file.write(f'Number {number} is {parity}.')
 
 print(f'The information is recorded in the file {filename}.')
 
