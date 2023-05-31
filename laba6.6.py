@@ -14,4 +14,3 @@ def count_the_occurrences(filename):
 
 
 count_the_occurrences('book.txt')
-
