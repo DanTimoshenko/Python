@@ -19,4 +19,3 @@ def extract_chapter_titles(filename):
 
 
 extract_chapter_titles('123.txt')
-
